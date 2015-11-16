@@ -1,0 +1,222 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather',serif;
+    background: #E8E4E4;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+    height: 100px;
+    background-size: cover;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	
+}
+.header .nav {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 0;
+    height: 40px;
+    width: 100px;
+}
+
+.header .nav a{
+  color: #8A8A8A;
+  font-weight: 700;
+  font-size: 16px;
+  display: inline;
+  position: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  transition: color .5s;
+  text-decoration: none;
+}
+
+.header .nav a:hover{
+    color: #89CFD4;
+    cursor: pointer;
+}
+
+.container h1{
+    color: #4D4D4D;
+    padding: 0 0;
+    margin: 20px 0 0 0;
+    text-align: left;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.container h3{
+    color: #4D4D4D;
+    padding: 0 0;
+    margin:0 auto;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main{
+    clear: both;
+}
+.main img{
+    float: left;
+    height: 385px;
+    width: 380px;
+    margin: 30px 80px 50px 0;
+    border-radius: 50%;
+}
+
+.main h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.main h2{
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.main #button1{
+     width:90px;
+    height:90px;
+    line-height: 90px;
+    padding:20px 20px;
+    margin: 10px 26px 30px 0;
+    border-radius:50%;
+    text-align:center;
+    background-color:#E83556;
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.main #button1:hover{
+    background-color: #862739;
+    cursor: pointer;
+}
+.main #button2{
+     width:90px;
+    height:90px;
+    line-height: 90px;
+    padding:20px 20px;
+     margin: 10px 26px 30px 0;
+    border-radius:50%;
+    text-align:center;
+    background-color:#89CFD4;
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.main #button2:hover{
+    background-color: #5D8A8C;
+    cursor: pointer;
+}
+
+.main #button3{
+    width:90px;
+    height:90px;
+    line-height: 90px;
+    padding:20px 20px;
+     margin: 10px 26px 30px 0;
+    border-radius:50%;
+    text-align:center;
+    background-color:#CEC92B;
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.main #button3:hover{
+    background-color: #898620;
+    cursor: pointer;
+}
+
+.main p{
+    font-size: 8;
+    color: #4E4E4E;
+}
+.footer{
+    background: #E83556;
+    clear: both;
+    width: 100%
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 0;
+    height: 80px;
+}
+
+.footer .col{
+    float: left;
+    width: 33%;
+    text-align: center;
+    display: inline;
+}
+
+.footer .col h2{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer .col p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0px;
+    margin-bottom: 40px;
+}
+
+.footer .col a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 50px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer .col a:hover{
+    color: #89CFD4;
+    cursor: pointer; 
+}
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 80px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
